@@ -1,4 +1,53 @@
-@import url("https://rsms.me/inter/inter.css");
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    html {
+        background-color: #f8f8f2;
+        color: #282a36;
+    }
+    a {
+        color: #000;
+        text-decoration: none;
+        border-bottom: solid 2px gold;
+        padding: 0;
+    }
+    a:hover,
+    a:active {
+        color: #000;
+    }
+    a:visited {
+        color: #000;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: #24292f;
+        color: #e4e4e4;
+    }
+    a {
+        color: #e4e4e4;
+        text-decoration: none;
+        border-bottom: solid 2px #1f6be4;
+        padding: 0;
+    }
+    a:hover,
+    a:active {
+        color: #e4e4e4;
+    }
+    a:visited {
+        color: #e4e4e4;
+    }
+    .language-html {
+        background-color: #fff;
+        color: #000;
+    }
+    .language-css {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
 html {
     font-family: "Inter", sans-serif;
 }
@@ -6,31 +55,6 @@ html {
     html {
         font-family: "Inter var", sans-serif;
     }
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    border-bottom: solid 2px gold;
-    padding: 0;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover,
-a:active {
-    color: gold;
-}
-
-a.image-link,
-a.image-link:visited,
-a.image-link:hover,
-a.image-link:active {
-    text-decoration: none;
-    border: none;
-    padding: 0;
 }
 
 h1 {
@@ -115,7 +139,6 @@ body {
 
 .menu .menu-item.active {
     font-weight: bold;
-    color: black;
 }
 
 .menu .menu-item.active a {
