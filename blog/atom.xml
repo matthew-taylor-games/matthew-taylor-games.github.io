@@ -1,0 +1,13 @@
+<rss version="2.0">
+  <channel>
+    <item>
+       <title>Creating GitHub</title>
+       <link>http://example.com/2002/09/01</link>
+       <description>My paper was published in the Example Journal today.</description>
+    </item>
+    <item>
+       <title>Learning HTML</title>
+       <link>http://example.com/2002/09/02</link>
+    </item>
+  </channel>
+</rss>
