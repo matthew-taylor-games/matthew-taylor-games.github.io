@@ -2,12 +2,13 @@
   <channel>
     <item>
        <title>Creating GitHub</title>
-       <link>http://example.com/2002/09/01</link>
-       <description>My paper was published in the Example Journal today.</description>
+       <link>https://matthew-taylor-games.github.io/blog/creating-github.html</link>
+       <description>Creating a GitHub account is easy and only takes a few simple steps.</description>
     </item>
     <item>
        <title>Learning HTML</title>
-       <link>http://example.com/2002/09/02</link>
+       <link>https://matthew-taylor-games.github.io/blog/Learning-HTML.html</link>
+       <description>HTML or Hypertext Markup Language, is the foundation of web development.</description>
     </item>
   </channel>
 </rss>
